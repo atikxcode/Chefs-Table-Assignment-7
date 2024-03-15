@@ -1,0 +1,56 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken Teriyaki",
+    "short_description": "Grilled chicken in savory teriyaki marinade.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+    "preparing_time": 30,
+    "calories": 320,
+    "recipe_image": "https://i.ibb.co/q0wvWBR/Recipe-1.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "Colorful veggies stir-fried to perfection.",
+    "ingredients": ["300 g broccoli", "200 g carrots", "150 g bell peppers", "100 g snow peas"],
+    "preparing_time": 25,
+    "calories": 180,
+    "recipe_image": "https://i.ibb.co/qjxprsG/Recipe-2.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Classic Margherita Pizza",
+    "short_description": "Delicious pizza with tomato, mozzarella, and basil.",
+    "ingredients": ["200 g pizza dough", "150 g mozzarella cheese", "100 g tomato sauce", "50 g fresh basil"],
+    "preparing_time": 40,
+    "calories": 250,
+    "recipe_image": "https://i.ibb.co/R9WqCBq/Recipe-3.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Creamy Mushroom Risotto",
+    "short_description": "Creamy mushroom risotto, bursting with flavor.",
+    "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 L vegetable broth", "100 ml white wine"],
+    "preparing_time": 45,
+    "calories": 380,
+    "recipe_image": "https://i.ibb.co/mXcn0T0/Recipe-4.jpg"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Fresh Fruit Salad",
+    "short_description": "A refreshing salad with a variety of fresh fruits.",
+    "ingredients": ["2 apples", "2 oranges", "1 pineapple", "1 cup grapes"],
+    "preparing_time": 15,
+    "calories": 120,
+    "recipe_image": "https://i.ibb.co/zV8N31D/Recipe-5.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with a rich tomato-based meat sauce.",
+    "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "1 onion"],
+    "preparing_time": 35,
+    "calories": 450,
+    "recipe_image": "https://i.ibb.co/hdpZ7m8/Recipe-6.jpg"
+  }
+]

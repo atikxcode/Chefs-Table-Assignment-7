@@ -1,12 +1,12 @@
 
 
 
-const Recipe = ({menu}) => {
+const Recipe = ({menu, handleAddToCook}) => {
   const {recipe_name, short_description, ingredients, preparing_time, calories, recipe_image} = menu;
   return (
     <div>
       
-      <div className="flex flex-col border-[1px] border-[#28282833] p-4 w-[340px] rounded-xl">
+      <div className="flex flex-col border-[1px] border-[#28282833] p-4 w-[360px] rounded-xl">
         <img className="w-[330px] h-[200px] rounded-xl mb-6" src={recipe_image} alt="" />
         <h2 className="text-[#282828] text-[20px] font-semibold mb-4">{recipe_name}</h2>
         <p className="text-[#878787] text-[16px] leading-[30px] mb-4">{short_description}</p>
@@ -35,7 +35,7 @@ const Recipe = ({menu}) => {
   </defs>
 </svg>
           </p>
-          <p>{preparing_time} min</p>
+          <p className="text-[#878787]">{preparing_time} min</p>
           </div>
 
           <div className="flex gap-1">
@@ -49,13 +49,13 @@ const Recipe = ({menu}) => {
             </clipPath>
           </defs>
         </svg></p>
-        <p>{calories} calories</p>
+        <p className="text-[#878787]">{calories} calories</p>
           </div>
           
           
         </div>
         <div>
-        <button className="bg-[#0BE58A]  text-lg font-medium text-black w-[170px] h-[49px] rounded-[50px] mt-6">Want to Cook</button>
+        <button onClick={() => handleAddToCook(menu)} className="bg-[#0BE58A]  text-lg font-medium text-black w-[170px] h-[49px] rounded-[50px] mt-6">Want to Cook</button>
         </div>
 
       </div>

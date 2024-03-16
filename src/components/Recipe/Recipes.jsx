@@ -1,10 +1,13 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "./Recipe";
-import Cart from "../Cart/Cart";
+import Carts from "../Carts/Carts";
 
 
-const Recipes = () => {
+
+
+
+const Recipes = ({handleAddToCook}) => {
 
   const [menus, setMenus] = useState([]);
 
@@ -24,11 +27,14 @@ const Recipes = () => {
      <div className="flex justify-between">
       <div className="grid grid-cols-2 gap-10">
       {
-        menus.map(menu => <Recipe key={menu.recipe_id} menu={menu}></Recipe>)
+        menus.map(menu => <Recipe 
+          key={menu.recipe_id}
+          handleAddToCook={handleAddToCook}
+           menu={menu}></Recipe>)
       }
       </div>
       <div>
-      <Cart></Cart>
+        <Carts></Carts>
       </div>
      </div>
 

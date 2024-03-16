@@ -1,9 +1,9 @@
 
 
-const Cart = () => {
+const Cart = ({item}) => {
   return (
     <div>
-      <h2>Hello World</h2>
+      
     </div>
   );
 };

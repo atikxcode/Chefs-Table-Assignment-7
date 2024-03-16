@@ -7,7 +7,25 @@ import Carts from "../Carts/Carts";
 
 
 
-const Recipes = ({handleAddToCook}) => {
+const Recipes = () => {
+
+
+  const [cooks, setCooks] = useState([]);
+
+  const handleAddToCook = cook => {
+    // console.log(cook)
+    
+    const existingCooks = cooks.find(food => food?.recipe_id === cook?.recipe_id)
+    if(existingCooks){
+      console.log("Tor mayere chudi")
+    }
+    else{
+      setCooks([...cooks, cook]);
+    }
+    
+    // console.log(cooks);
+    // console.log(setCooks);
+  }
 
   const [menus, setMenus] = useState([]);
 
@@ -34,7 +52,8 @@ const Recipes = ({handleAddToCook}) => {
       }
       </div>
       <div>
-        <Carts></Carts>
+        <Carts cooks={cooks}
+        setCooks={setCooks}></Carts>
       </div>
      </div>
 

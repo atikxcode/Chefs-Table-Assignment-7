@@ -3,9 +3,14 @@ import { useState } from "react";
 import Recipe from "./Recipe";
 import Carts from "../Carts/Carts";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
+const notify = () => {
+  toast('Items already selected');
+}
 
 const Recipes = () => {
 
@@ -17,7 +22,7 @@ const Recipes = () => {
     
     const existingCooks = cooks.find(food => food?.recipe_id === cook?.recipe_id)
     if(existingCooks){
-      console.log("Tor mayere chudi")
+      notify();
     }
     else{
       setCooks([...cooks, cook]);
@@ -60,7 +65,7 @@ const Recipes = () => {
      
       
 
-
+      <ToastContainer></ToastContainer>
     </div>
     
   );

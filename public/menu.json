@@ -1,7 +1,7 @@
 [
   {
     "recipe_id": 1,
-    "recipe_name": "Grilled Chicken Teriyaki",
+    "recipe_name": "Grilled Chicken",
     "short_description": "Grilled chicken in savory teriyaki..",
     "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
     "preparing_time": 30,
@@ -10,7 +10,7 @@
   },
   {
     "recipe_id": 2,
-    "recipe_name": "Vegetable Stir-Fry",
+    "recipe_name": "Veg Stirgy-Fry",
     "short_description": "Colorful veggies stir-fried to perfection.",
     "ingredients": ["300 g broccoli", "200 g carrots", "150 g bell peppers", "100 g snow peas"],
     "preparing_time": 25,
@@ -19,7 +19,7 @@
   },
   {
     "recipe_id": 3,
-    "recipe_name": "Classic Margherita Pizza",
+    "recipe_name": "Margherita Pizz",
     "short_description": "Delicious pizza with tomato, mozzarella, and basil.",
     "ingredients": ["200 g pizza dough", "150 g mozzarella cheese", "100 g tomato sauce", "50 g fresh basil"],
     "preparing_time": 40,
@@ -28,7 +28,7 @@
   },
   {
     "recipe_id": 4,
-    "recipe_name": "Creamy Mushroom Risotto",
+    "recipe_name": "Creamy Shroom",
     "short_description": "Creamy mushroom risotto, bursting with flavor.",
     "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 L vegetable broth", "100 ml white wine"],
     "preparing_time": 45,
@@ -37,7 +37,7 @@
   },
   {
     "recipe_id": 5,
-    "recipe_name": "Fresh Fruit Salad",
+    "recipe_name": "Fruits Salad",
     "short_description": "A refreshing salad with a variety of fresh fruits.",
     "ingredients": ["2 apples", "2 oranges", "1 pineapple", "1 cup grapes"],
     "preparing_time": 15,
@@ -46,11 +46,65 @@
   },
   {
     "recipe_id": 6,
-    "recipe_name": "Spaghetti Bolognese",
+    "recipe_name": "Spaghetti",
     "short_description": "Classic Italian pasta dish with a rich tomato-based meat sauce.",
     "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "1 onion"],
     "preparing_time": 35,
     "calories": 450,
     "recipe_image": "https://i.ibb.co/hdpZ7m8/Recipe-6.jpg"
+  },
+  {
+    "recipe_id": 7,
+    "recipe_name": "Vegetable Soup",
+    "short_description": "Hearty and nutritious vegetable soup.",
+    "ingredients": ["2 carrots", "2 celery stalks", "1 onion", "1 potato", "1 can diced tomatoes", "4 cups vegetable broth"],
+    "preparing_time": 35,
+    "calories": 150,
+    "recipe_image": "https://i.ibb.co/ZWQtmx2/Recipe-7.jpg"
+  },
+  {
+    "recipe_id": 8,
+    "recipe_name": "Grilled Salmon",
+    "short_description": "Delicious grilled salmon fillets seasoned.",
+    "ingredients": ["4 salmon fillets", "2 tablespoons olive oil", "1 lemon", "Salt and pepper to taste"],
+    "preparing_time": 20,
+    "calories": 250,
+    "recipe_image": "https://i.ibb.co/CwQkQLp/Recipe-8.jpg"
+  },
+  {
+    "recipe_id": 9,
+    "recipe_name": "Chicken Curry",
+    "short_description": "A flavorful and aromatic curry dish with tender chicken and ripe mangoes.",
+    "ingredients": ["500 g chicken thighs", "2 ripe mangoes", "1 onion", "3 cloves garlic", "400 ml coconut milk"],
+    "preparing_time": 40,
+    "calories": 300,
+    "recipe_image": "https://i.ibb.co/YZhXkqn/Recipe-9.jpg"
+  },
+  {
+    "recipe_id": 10,
+    "recipe_name": "Greek Salad",
+    "short_description": "A refreshing salad with tomatoes, cucumbers, olives, and feta cheese.",
+    "ingredients": ["2 tomatoes", "1 cucumber", "1/2 red onion", "1/4 cup kalamata olives", "100 g feta cheese"],
+    "preparing_time": 15,
+    "calories": 180,
+    "recipe_image": "https://i.ibb.co/r4XPHgD/Recipe-10.jpg"
+  },
+  {
+    "recipe_id": 11,
+    "recipe_name": "Beef Stir-Fry",
+    "short_description": "Tender beef slices stir-fried with colorful vegetables in a savory sauce.",
+    "ingredients": ["300 g beef sirloin", "1 bell pepper", "1 onion", "2 cloves garlic", "2 tablespoons soy sauce"],
+    "preparing_time": 30,
+    "calories": 320,
+    "recipe_image": "https://i.ibb.co/pw33Qzk/Recipe-11.jpg"
+  },
+  {
+    "recipe_id": 12,
+    "recipe_name": "Lemon Shrimp",
+    "short_description": "Juicy shrimp cooked in a tangy lemon garlic sauce.",
+    "ingredients": ["1 lb shrimp", "4 cloves garlic", "1 lemon", "2 tablespoons olive oil", "Salt and pepper to taste"],
+    "preparing_time": 20,
+    "calories": 200,
+    "recipe_image": "https://i.ibb.co/HKxd3Ty/Recipe-12.jpg"
   }
 ]

@@ -53,7 +53,7 @@ const Carts = ({cooks, setCooks}) => {
       </div>)
      }
 
-     <h2 className="text-[#282828] text-[20px] lg:text-[24px] font-semibold">Currently Cooking: {cookingCount}</h2>
+     <h2 className="text-[#282828] text-[20px] lg:text-[24px] font-semibold mb-[40px]">Currently Cooking: {cookingCount}</h2>
      <div className="flex w-full text-[#878787] text-[16px] font-medium mb-[16px]">
       <h2 className="lg:ml-10 mr-20 lg:mr-28">Name </h2>
       <h2 className="ml-12 mr-2 lg:mr-14">Time</h2>

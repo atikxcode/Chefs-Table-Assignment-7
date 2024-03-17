@@ -10,20 +10,7 @@ import Recipes from './components/Recipe/Recipes'
 function App() {
 
 
-  // useEffect(() => {
-  //   const handleAddToCook = cook => {
-  //     // console.log(cook)
-  //     setCooks(cook);
-  //     console.log(cooks);
-  //     // console.log(setCooks);
-  //   }
-  // },[cooks])
-  const handleAddToCook = cook => {
-    // console.log(cook)
-    setCooks(cook);
-    console.log(cooks);
-    // console.log(setCooks);
-  }
+
 
   return (
     <>

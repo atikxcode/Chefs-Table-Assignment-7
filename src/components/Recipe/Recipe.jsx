@@ -6,7 +6,7 @@ const Recipe = ({menu, handleAddToCook}) => {
   return (
     <div>
       
-      <div className="flex flex-col border-[1px] border-[#28282833] p-4 w-[360px] rounded-xl">
+      <div className="flex flex-col border-[1px] border-[#28282833] p-4 w-[360px] rounded-xl mx-auto lg:mx-none">
         <img className="w-[330px] h-[200px] rounded-xl mb-6" src={recipe_image} alt="" />
         <h2 className="text-[#282828] text-[20px] font-semibold mb-4">{recipe_name}</h2>
         <p className="text-[#878787] text-[16px] leading-[30px] mb-4">{short_description}</p>
